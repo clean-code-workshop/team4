@@ -11,16 +11,6 @@ public class BuildAndSendMail {
         // Format the message given the content type and raw message
         MailMessage mMessage = formatMessage(font,
             message1 + message2 +  message3);
-        MailMessage mMessage = formatMessage(font,
-            message1 + message2 +  message3);
-        MailMessage mMessage = formatMessage(font,
-            message1 + message2 +  message3);
-        MailMessage mMessage = formatMessage(font,
-            message1 + message2 +  message3);
-        MailMessage mMessage = formatMessage(font,
-            message1 + message2 +  message3);
-        MailMessage mMessage = formatMessage(font,
-            message1 + message2 +  message3);
         // Send message
         m.send(mId, subject, mMessage);
     }
