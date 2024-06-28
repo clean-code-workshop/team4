@@ -22,6 +22,9 @@ public class FlagFactory {
         case FRENCH:
             result = Arrays.asList(Color.BLUE, Color.WHITE, Color.RED);
             break;
+        case Estonian:
+            result = Arrays.asList(Color.BLUE, Color.BLACK, Color.WHITE);
+            break;
         case ITALIAN:
             result = Arrays.asList(Color.GREEN, Color.WHITE, Color.RED);
             break;
